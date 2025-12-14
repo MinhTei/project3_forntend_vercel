@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 // 👇 Dán Link Railway của bạn vào đây (Bỏ dấu / ở cuối)
-const API_URL = "https://project3-backend-minhtai.up.railway.app";
+const API_URL = "https://project3-backend-railway-production.up.railway.app";
 
 function App() {
   const [todos, setTodos] = useState([]);
